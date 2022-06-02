@@ -1,4 +1,85 @@
-.nav{
-    background-color: #177165;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+ol,
+ul,
+menu {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* font-family: 'Playfair Display', serif; */
+
+.nav{
+    background-color: #177165;
+    padding: 25px 10px;
+    color: #a4d6cf;
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu{
+    display: flex;
+}
+
+.nav__item{
+    margin-right: 40px;
+    text-transform: lowercase;
+}
+
+.nav__item:last-child{
+    margin-right: 0;
+}
+.nav__item::first-letter{
+    text-transform: uppercase;
+}
+.nav__link{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.nav__link:hover{
+    color: #fff;
+}
+
+.nav__phone{
+    display: flex;
+    flex-direction: column;
+    padding-left: 65px;
+    position: relative;
+}
+
+.nav__phone::before{
+    content: "";
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 0;
+    top: 0;
+    background-image: url("./img/icons/call.png");
+}
+
+.nav__phone-title{
+    font-size: 17px;
+    line-height: 29px;
+}
