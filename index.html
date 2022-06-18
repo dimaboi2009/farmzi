@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./style.css" />
-    <title>farmzi</title>
+
+    <title>Farmzi</title>
   </head>
   <body>
     <nav class="nav">
       <div class="nav__container">
-        <a href="#" class="logo">
-          <img src="./img/icons/logo.png" alt="logotype" class="logo__img" />
+        <a class="logo" href="#">
+          <img class="logo__img" src="./img/icons/logo.png" alt="logotype" />
         </a>
+
         <ul class="nav__menu">
           <li class="nav__item">
             <a class="nav__link" href="#">home</a>
@@ -33,14 +37,141 @@
             <a class="nav__link" href="#">blog</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">cotect</a>
+            <a class="nav__link" href="#">contact</a>
           </li>
         </ul>
+
         <div class="nav__phone">
-          <span class="nav__phone-title">Call us</span>
-          <a href="tel:+0089458648" class="nav__phone-link">+00 89 458 648</a>
+          <span class="nav__phone-title">Call us:</span>
+          <a class="nav__phone-link" href="tel:+0089458648">+00 89 458 648</a>
         </div>
       </div>
     </nav>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__text">
+            <span class="description"> Make a garden with musion. </span>
+            <h1 class="hero__title">
+              If you have a garden and a library, you have everything you need.
+            </h1>
+            <span class="description">Marcus Tullius Cicero</span>
+            <a class="hero__services" href="#">All Services</a>
+          </div>
+          <img class="hero__img" src="./img/man.jpg" alt="man" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <span class="about__subtitle">About Company</span>
+        <h2 class="title title--about">
+          Farmzi have 35 years of experience and know smart way to grow and
+          design your beautiful garden.
+        </h2>
+        <div class="about__inner">
+          <div class="about__img">
+            <img class="about__image" src="./img/woman.jpg" alt="woman" />
+          </div>
+          <div class="about__text">
+            <h3 class="about__title">Who we are?</h3>
+            <p class="about__item">
+              Lorem Ipsum is simply dummy text of the printing and typeset
+              industry. Lorem Ipsum has been the industry's standard dumm ever
+              since the 1500s, when an unknown printer took a galley scrambled
+              it make a type specimen book.
+            </p>
+            <p class="about__item about__item--color">
+              “Lorem Ipsum is simply dummy text of the printn industry lorem
+              epsum has been the industry and scrambled it make a type specimen
+              book”.
+            </p>
+
+            <h3 class="about__title">Mission and vision</h3>
+            <p class="about__item">
+              Lorem Ipsum is simply dummy text of the printing and typeset
+              industry. Lorem Ipsum has been the industry's standard dumm ever
+              since the 1500s, when an unknown printer took a galley scrambled
+              it make a type specimen book.
+            </p>
+            <p class="about__item about__item--bottom">
+              Lorem Ipsum is simply dummy text of the printing and typeset
+              industry. Lorem Ipsum has been the industry's standard dumm
+              scrambled it make a type specimen book.
+            </p>
+            <a class="about__link" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <span class="services__subtitle"> Our SErvices </span>
+        <h2 class="title">
+          Farmzi always provide amazing gardening and landscaping services.
+        </h2>
+        <ul class="services__list">
+          <li class="services__item">
+            <img
+              class="services__img"
+              src="./img/services/services1.jpg"
+              alt="flower"
+            />
+            <span class="services__subtitle">Flower</span>
+            <h3 class="services__title">plantingt Flower</h3>
+          </li>
+          <li class="services__item">
+            <img
+              class="services__img"
+              src="./img/services/services2.jpg"
+              alt="flower"
+            />
+            <span class="services__subtitle">Flower</span>
+            <h3 class="services__title">Tree plantingt</h3>
+          </li>
+
+          <li class="services__item">
+            <img
+              class="services__img"
+              src="./img/services/services3.png"
+              alt="flower"
+            />
+            <span class="services__subtitle">Flower</span>
+            <h3 class="services__title">Rush Removal</h3>
+          </li>
+
+          <li class="services__item">
+            <img
+              class="services__img"
+              src="./img/services/services4.png"
+              alt="flower"
+            />
+            <span class="services__subtitle">Flower</span>
+            <h3 class="services__title">Garden Watering</h3>
+          </li>
+        </ul>
+        <a class="services__link" href="#">More services</a>
+      </div>
+    </section>
+
+    <sectoin class="action">
+      <div class="container"></div>
+        <div class="action__inner">
+          <div class="action__text">
+            <span class="description">Call Of Action</span>
+            <h2 class="title">
+              If you need any gardening service, you can contact with Farmzi.
+            </h2>
+          </div>
+          <div class="action__services">
+            <div class="nav__phone">
+              <span class="nav__phone-title">Call us:</span>
+              <a class="nav__phone-link" href="tel:+0089458648">+00 89 458 648</a>
+            </div>
+          </div>
+        </div>
+    </sectoin>
   </body>
 </html>
